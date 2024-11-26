@@ -1,6 +1,88 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+<head><!DOCTYPE html>
+<html lang="pt-BR">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Morro do dende</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>No Morro do Dendê, a vida é um desafio diário. Raul, um jovem de 17 anos, sonha em mudar sua realidade, mas precisa enfrentar dilemas que podem definir seu destino. </p>
+            <button class="btn-proximo" data-proximo="1">Caminho do trafico</button>
+            <button class="btn-proximo" data-proximo="2">Caminho dos estudos</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Raul é abordado por um amigo de infância, Léo, que o convida para trabalhar no "movimento" do tráfico.</p>
+            <button class="btn-proximo" data-proximo="3">Raul aceita.</button>
+            <button class="btn-proximo" data-proximo="4">Raul recusa.</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Raul encontra um cartaz anunciando um curso gratuito de programação na ONG local.</p>
+            <button class="btn-proximo" data-proximo="5">Raul se inscreve.</button>
+            <button class="btn-proximo" data-proximo="6">Raul ignora</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>No início, o dinheiro fácil parece a solução para seus problemas, mas logo ele percebe os perigos. Um dia, durante uma operação policial, Raul é preso. Na cela, reflete sobre suas escolhas e decide mudar sua vida ao sair.</p>
+            <button class="btn-proximo" data-proximo="7">ele segue o caminho dos estudos</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Ele continua vendendo frutas no mercado e, apesar de trabalhar duro, sente que está preso em um ciclo sem fim.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Ele dedica as noites aos estudos, enfrentando o cansaço do trabalho durante o dia. Aos poucos, aprende Python e consegue um estágio em uma startup. Com esforço, Raul se torna um exemplo na comunidade e inspira outros jovens a seguirem seus sonhos.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para o Amazonas</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Ele se afasta de Léo, mesmo sabendo que perderá a amizade. O peso de sua decisão é grande, mas ele sente orgulho por seguir seus valores.</p>
+            <button class="btn-proximo" data-proximo="8">ir trabalhar</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Raul descobre um grupo de jovens grafiteiros que usam a arte para protestar e dar voz à comunidade.</p>
+            <button class="btn-proximo" data-proximo="9">Raul se junta ao grupo.</button>
+            <button class="btn-proximo" data-proximo="10">Raul hesita</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Ao perceber seu atos ele vai a praça para passear </p>
+            <button class="btn-proximo" data-proximo="7">passar pelos muros</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Ele transforma os muros do morro em verdadeiras obras de arte. Sua paixão pela arte o leva a expor seus trabalhos fora da comunidade, tornando-se um artista reconhecido.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Ele admira os grafiteiros de longe, mas não participa, temendo a reação de outras pessoas. A oportunidade de mostrar sua criatividade escapa.
+            </p>
+            <button class="btn-proximo" data-proximo="12">retornar aos grafiteiros</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>ignorar tudo e começar a trabalhar</p>
+        </div>
+        <div class="passo" id="passo-12">
+            <p>retornando e escolhendo retornar o caminho do trafico.</p>
+            <button class="btn-proximo" data-proximo="11">Raul morre.</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
